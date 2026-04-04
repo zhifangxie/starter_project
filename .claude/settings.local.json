@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch"
+    ],
+    "deny": [
+      "Bash(git push:*)"
+    ]
+  }
+}
