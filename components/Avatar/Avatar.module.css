@@ -1,0 +1,11 @@
+@reference "../../app/globals.css";
+
+.avatar {
+  @apply inline-flex items-center justify-center rounded-full select-none;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #C27AFF;
+  color: #030712;
+  font-size: 0.95rem;
+  letter-spacing: 0.03em;
+}
