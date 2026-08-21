@@ -8,10 +8,10 @@ export default function Home() {
   return (
     <div className="center-content">
       <div className="page-content">
-        <h1>
-          P<Clock8 className="logo" strokeWidth={2.75} />cket Heist
-        </h1>
-        <div>Strike fast. Vanish faster.</div>
+      <h1>
+        P<Clock8 className="logo" strokeWidth={2.75} />cket Heist
+      </h1>
+      <div>Small pranks. Big office chaos. ✨</div>
       </div>
     </div>
   )

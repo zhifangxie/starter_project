@@ -15,6 +15,14 @@
           {
             "type": "command",
             "command": "echo 'Edit/Write tool used!'"
+          },
+          {
+            "type": "command",
+            "command": "jq . > tool-use.json"
+          },
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path' | { read fp; if [[ \"$fp\" =~ \\.tsx?$ ]]; then npx prettier --write \"$fp\"; fi; }"
           }
         ]
       }
