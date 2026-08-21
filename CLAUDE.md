@@ -33,7 +33,7 @@ npx vitest tests/components/Navbar.test.tsx
 Uses Next.js App Router route groups to separate layouts:
 
 - `app/(public)/` — Unauthenticated pages (home, login, signup, preview). No navbar.
-- `app/(dashboard)/` — Protected pages (heists listing, create, `[id]` detail). Includes the Navbar via `app/(dashboard)/layout.tsx`.
+- `app/(dashboard)/` — Protected pages (`heists/` listing, `heists/create`, `heists/[id]` detail). Includes the Navbar via `app/(dashboard)/layout.tsx`.
 
 ### Import Aliases
 
